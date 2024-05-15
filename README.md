@@ -1,6 +1,4 @@
-# Figma Plugin Template Project
-
-This is a template project that aims to accelerate Figma Plugin Development.
+# LLM Ipsum
 
 It's a monorepo with two packages:
 

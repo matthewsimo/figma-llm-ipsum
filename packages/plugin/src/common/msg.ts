@@ -2,9 +2,6 @@ import { PluginSettings } from "./app";
 
 export type PostMessage =
   | {
-      type: "refreshFigmaData";
-    }
-  | {
       type: "log";
       payload: {
         count: number;
@@ -13,6 +10,9 @@ export type PostMessage =
     }
   | {
       type: "create";
+      payload: {
+        content: string;
+      };
     }
   | {
       type: "close";
@@ -23,9 +23,6 @@ export type PostMessage =
         message: string;
         options?: NotificationOptions;
       };
-    }
-  | {
-      type: "toggleLibraries";
     };
 
 export type UIPostMessagePayload = {

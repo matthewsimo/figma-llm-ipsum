@@ -1,5 +1,5 @@
 {
-  "name": "Figma Plugin Template",
+  "name": "LLM Ipsum",
   "api": "1.0.0",
   "main": "dist/code/index.js",
   "ui": "dist/ui/index.html",
@@ -9,6 +9,7 @@
   "permissions": ["currentuser", "teamlibrary"],
   "editorType": ["figma"],
   "networkAccess": {
-    "allowedDomains": ["none"]
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost"]
   }
 }
